@@ -1,0 +1,34 @@
+{
+  "name": "reddit-abdel-ilah",
+  "version": "1.0.0",
+  "description": "You can check the desing of database [HERE](https://drawsql.app/teams/abdoumonuir/diagrams/posts)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon src/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CA-G12/Reddit-Abdel-ilah.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CA-G12/Reddit-Abdel-ilah/issues"
+  },
+  "homepage": "https://github.com/CA-G12/Reddit-Abdel-ilah#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.6",
+    "env2": "^2.2.2",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "nodemon": "^2.0.19",
+    "pg": "^8.8.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.23.0"
+  }
+}
