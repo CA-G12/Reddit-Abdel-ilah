@@ -4,6 +4,7 @@
   "description": "You can check the desing of database [HERE](https://drawsql.app/teams/abdoumonuir/diagrams/posts)",
   "main": "index.js",
   "scripts": {
+    "start":"NODE_ENV=pro node src",
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "nodemon src/index"
   },
